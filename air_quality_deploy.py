@@ -67,11 +67,11 @@ if st.button('Predict'):
   st.subheader('Probability')
 
   if pred == 0:
-    st.write(f'Probability : {proba[0][0] : .3f}')
+    st.write(f'Probability : {prob[0][0] : .3f}')
   elif pred == 1:
-    st.write(f'Probability : {proba[0][1] : .3f}')
+    st.write(f'Probability : {prob[0][1] : .3f}')
   elif pred == 2:
-    st.write(f'Probability : {proba[0][2] : .3f}')
+    st.write(f'Probability : {prob[0][2] : .3f}')
   else:
-    st.write(f'Probability : {proba[0][3] : .3f}')
+    st.write(f'Probability : {prob[0][3] : .3f}')
 
